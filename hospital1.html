@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<head>
+<title>AARS</title>
+<style>
+body
+{
+	background-image: url('bk.png');
+}
+div.upperbar
+{
+	width:1350px;
+	margin: 0px;
+	border:0px;
+	background-color: #080000;
+	text-align: center;
+	font-size: 40px;
+	color: #FFFFFF;
+}
+div.loginfield
+{
+	text-align: center;
+	font-size: 25px;
+	padding: 100px;
+}
+div.lowerbar
+{
+	width:1325px;
+	margin: 0px;
+	border:0px;
+	background-color: #080000;
+	text-align: center;
+	font-size: 15px;
+	color: #FFFFFF;
+	padding: 10px;
+}
+h3
+{
+	text-align: center;
+}
+h4
+{
+	text-align: right;
+	color: white;
+}
+</style>
+</head>
+<script type="text/javascript">
+function abhi()
+{
+document.write("<!DOCTYPE html>");
+document.write("<head>");
+document.write('<link rel="stylesheet" type="text/css" href="css_file.css">');
+document.write("<title>AARS</title>");
+document.write("</head>");
+document.write("<body>");
+document.write('<div class="upperbar">');
+document.write('<img src="aars_logo.png" height="100px" width="100px">AUTOMOBILE AUTOMATIC RESPONSE SYSTEM</div>');
+document.write('<h4><a href="home.html">LOGOUT</a></h4>');
+document.write("<h3>you have accepted the request..<br />PLEASE ATTEND IMMEDIATELY...!!</h3><br /><br />");
+document.write('<div class="lowerbar">Automobile accident response system/aars@google.com/ 2013 by AARS group</div>');
+document.write("</body>");
+document.write("</html>");
+}
+
+document.getElementById("abhibutton").disabled=false;
+</script>
+<body>
+<div class="upperbar">
+<img src="aars_logo.png" height="100px" width="100px">
+AUTOMOBILE AUTOMATIC RESPONSE SYSTEM
+</div>
+<h4><a href="home.html">LOGOUT</a></h4>
+<h1>INBOX</h1>
+<div class="table">
+<center>
+<table border="2" height="300" width="700">
+<tr>
+<th>location</th>
+<th>date</th>
+<th>time</th>
+<th>deviceno</th>
+<th>yes/no</th>
+<th>timer</th>
+</tr>
+<tr>
+<td>&nbsp </td>
+<td>&nbsp </td>
+<td>&nbsp </td>
+<td>&nbsp </td>
+<td><input type="button" id="abhibutton" value="yes" onclick="abhi()">/<input type="button" value="no"> </td>
+<td>&nbsp </td>
+</tr>
+<tr>
+<td>&nbsp </td>
+<td>&nbsp </td>
+<td>&nbsp </td>
+<td>&nbsp </td>
+<td><input type="button" value="yes">/<input type="button" value="no"> </td>
+<td>&nbsp </td>
+</tr>
+<tr>
+<td>&nbsp </td>
+<td>&nbsp </td>
+<td>&nbsp </td>
+<td>&nbsp</td>
+<td>
+<div class="test">
+<a href="yes.html"><h2>yes</h2></a>
+<a href="no.html"><h2>No</h2></a>
+</div></td>
+<td>&nbsp </td>
+</tr>
+</table>
+</center>
+</div>
+<div class="lowerbar">
+Automobile accident response system/aars@google.com/ 2013 by Patefacio Radix 
+</div>
+</body>
+</html>
